@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGUEME Y TE VISTO</title>
+    <link rel="shortcut icon" href="logotipo.jpeg" type="image/x-icon">
+</head>
+<body style="margin: 0;font-family: sans-serif;background-color: rgb(202, 207, 218);">
+
+<!--PARA EL ENCABEZADO-->
+<div style="width: 100%;background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(imagen1.jpeg);
+background-position: center;background-size: cover;height: 105vh;">
+
+    <header>
+    <!--para el logo-->
+        <a style="display: flex;align-items: center;padding: 1px 0px;" href="#" class="logo">
+            <img src="logotipo222.png" alt="">
+            <p style="font-family: 'Times New Roman', Times, serif;font-size: 25px;">SIGUEME Y TE VISTO</p>
+        </a>
+    <!--para los demas elementos del encabezado-->
+        <nav style="font-weight: bold;padding-bottom: 15px;padding: 10px;font-size: 19px;padding-right: 120px;">
+            
+            <a href="#"><img style="width: 50px;height: 50px; position: absolute;top: 15px;left: 390px;" src="perfil.png" alt=""></a>
+            <a style="position: absolute;top: 30px;left: 450px;" href="#" >REGISTRARSE</a>
+            <a style="position: absolute;top: 30px;right: 490px;" href="acercadenosotros.html">ACERCA DE NOSOTROS</a>
+            <a href="#"><img style="width: 50px;height: 50px; position: absolute;top: 15px;right: 100px;" src="carritodecompras.png" alt=""></a>
+
+        </nav>
+    <!--para el buscador-->
+        <div style="position: absolute; width: 370px;float: left;margin-left: 70px;right: 80px; top: 17px;">
+
+            <input style="font-family: sans-serif;width: 150px;height: 40px;background: transparent;border: 1px solid rgb(252, 252, 252);
+            margin-top: 3px;color: blue;border-right: none;font-size: 14px;float: left;padding: 10px;border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;" 
+            type="search" name="" placeholder="Escribe aqui...">
+
+            <a href="#"> <button style="width: 120px;height: 40px;background: rgb(84, 84, 90);border: 2px solid rgb(252, 252, 252);
+            margin-top: 3px;color:white;font-size: 14px;border-bottom-right-radius: 10px;border-top-right-radius: 10px;
+            cursor: pointer;">BUSCAR</button> 
+            </a>
+
+        </div>
+
+    </header> 
+
+ <!--PARA EL MENU-->
+    
+    <div id="menu" ><img style="width: 44px;height: 44px;position: fixed; right: 20px;top: 18px;" src="menuu33.png" alt=""></div>
+    <div id="navbar">
+        <a href="#">INICIO</a>
+        <a href="#">REGISTRARSE</a>
+        <a href="acercadenosotros.html">ACERCA DE NOSOTROS</a>
+        <a href="DAMAS.html">DAMA</a>
+        <a href="CABALLEROS..html">CABALLERO</a>
+        <a href="NIÑA.html">NIÑA</a>
+        <a href="NIÑO.html">NIÑO</a>
+    </div>
+    <script>
+        const menu = document.getElementById('menu');
+        const navbar = document.getElementById('navbar');
+        menu.addEventListener('click',() => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('navbar-toggle');
+        })
+    </script>
+
+  <!--PARA LA VISTA PRINCIPAL-->
+    
+    <div style="width: 1200px;height: auto;margin: auto;color: rgb(248, 244, 244);position: relative;">
+        
+        <h1 style="font-family: 'Times New Roman', Times, serif;font-size: 95px;padding-left: 20px;margin-top: 9%;
+        letter-spacing: 2px;">SIGUEME <br> Y TE VISTO</h1>
+        <P style="padding-left: 50px;font-family: ITC Conduit;letter-spacing: 1.2px;line-height: 30px;
+        font-size: 25px;">¡SIEMPRE TRENDY, SIEMPRE GENIAL!</P>
+        
+    </div>
+
+</div>
+
+<!--PARA EL BLOG-->
+
+<div style="color: rgb(41, 24, 56);font-size: 30px;font-family: ITC Conduit;border-radius: 50px; text-align: center;margin-bottom: 50px;">
+    <h2>MIRA NUESTRO BLOG ¡TE ENCANTARA!</h2>
+</div>
+
+    <div style="display: flex;gap: 20px;padding: 20px;justify-content: space-evenly;" class="blog">
+
+        <div style="width: 500px;font-family: ITC Conduit;height: 700px;padding: 20px;background-color: rgb(52, 52, 117);border-radius: 20px;
+        color: rgb(21, 21, 24);text-align: center;box-shadow: 5px 5px 30px 20px rgb(63, 63, 63);margin-top: -30px;" class="cab" >
+            <h2 style="position: relative; bottom: 30px;font-family: ITC Conduit;font-size: 200%;">CABALLEROS</h2>
+            <img style="float: left;position: relative;top: -45px;width: 500px;height: 600px;border-radius: 20px;" src="caballero1.jpeg" alt="">
+            <a href="CABALLEROS..html"><button style="font-family: ITC Conduit; width: 200px;height: 50px;border-radius: 10px;border: none;border: 2px solid rgb(252, 252, 252);
+                color:white;background: rgb(19, 11, 39);cursor: pointer;text-decoration: none;position: relative;top: -40px;
+                font-weight: bold;">SABER MAS...</button></a>
+        </div>
+
+        <div style="width: 500px;font-family: ITC Conduit;height: 700px;padding: 20px;background-color: rgb(52, 52, 117);border-radius: 20px;
+        color: rgb(21, 21, 24);text-align: center;box-shadow: 5px 5px 30px 20px rgb(63, 63, 63);margin-top: -30px;" class="dam">
+            <h2 style="position: relative; bottom: 30px;font-family: ITC Conduit;font-size: 200%;">DAMA</h2>
+            <img style="float: left;position: relative;top: -45px;width: 500px;height: 600px;border-radius: 20px;" src="dama2.jpeg" alt="">
+            <a href="DAMAS.html"><button style="font-family: ITC Conduit; width: 200px;height: 50px;border-radius: 10px;border: none;border: 2px solid rgb(252, 252, 252);
+                color:white;background: rgb(19, 11, 39);cursor: pointer;text-decoration: none;position: relative;top: -40px;
+                font-weight: bold;">SABER MAS...</button></a>
+        </div>
+    </div>
+
+    <div style="display: flex;gap: 85px;padding: 100px;justify-content: space-evenly;" class="blog">
+
+        <div style="width: 500px;font-family: ITC Conduit;height: 700px;padding: 20px;background-color: rgb(52, 52, 117);border-radius: 20px;
+        color: rgb(21, 21, 24);text-align: center;box-shadow: 5px 5px 30px 20px rgb(63, 63, 63);margin-top: -30px;" class="niño">
+            <h2 style="position: relative; bottom: 30px;font-family: ITC Conduit;font-size: 200%;">NIÑO</h2>
+            <img style="float: left;position: relative;top: -45px;width: 500px;height: 600px;border-radius: 20px;" src="niño1.jpeg" alt="">
+            <a href="NIÑO.html"><button style="font-family: ITC Conduit; width: 200px;height: 50px;border-radius: 10px;border: none;border: 2px solid rgb(252, 252, 252);
+                color:white;background: rgb(19, 11, 39);cursor: pointer;text-decoration: none;position: relative;top: -40px;
+                font-weight: bold;">SABER MAS...</button></a>
+        </div>
+
+        <div style="width: 500px;font-family: ITC Conduit;height: 700px;padding: 20px;background-color: rgb(52, 52, 117);border-radius: 20px;
+        color: rgb(21, 21, 24);text-align: center;box-shadow: 5px 5px 30px 20px rgb(63, 63, 63);margin-top: -30px;" class="niña">
+        <h2 style="position: relative; bottom: 30px;font-family: ITC Conduit;font-size: 200%;">NIÑA</h2>
+            <img style="float: left;position: relative;top: -45px;width: 500px;height: 600px;border-radius: 20px;" src="niña1.jpeg" alt="">
+            <a href="NIÑA.html"><button style="font-family: ITC Conduit; width: 200px;height: 50px;border-radius: 10px;border: none;border: 2px solid rgb(252, 252, 252);
+                color:white;background: rgb(19, 11, 39);cursor: pointer;text-decoration: none;position: relative;top: -40px;
+                font-weight: bold;">SABER MAS...</button></a>
+        </div>
+
+    </div>
+<!--RECOMENDACIONES Y PROMOCIONES-->
+
+<h2 style="position: relative; font-family: ITC Conduction;font-size: 250%; text-align: center;margin-top: -15px;">Increibles descuentos y promociones, busca las ofertas tu mismo</h2>
+
+    <p style="position: relative; font-family: ITC Conduit;font-size: 130%; text-align: center;margin-bottom: 40px;">No es sólo una marca de ropa, 
+        es toda una gama de estilo e imagen que cambia conforme al tiempo y las tendencias de cada temporada,<br> 
+        para ayudar a las damas, a sus niñas, niños y caballerosos hombres a lucir su elegante y comoda ropa.
+    </p>
+    
+    <div style="display: grid;gap: 1px;grid-auto-flow: column;overflow-y: auto;overscroll-behavior-x: contain;scroll-snap-type: x mandatory;
+    scrollbar-width: none;">
+        <div><img src="promocion2.jpg" alt="" > </div>
+        <div><img style="height: 545px; width: 1200px;" src="promocion1.jpg" alt="" > </div>
+
+    </div>
+
+   <h2 style="text-align: center;font-family: ITC Conduit;font-size: 200%;">Si no sabes como iniciar tus compras, te recomendamos:</h2>
+   <li style="text-align: center;font-family: ITC Conduit;font-size: 150%;">Crea una cuenta.</li>
+   <li style="text-align: center;font-family: ITC Conduit;font-size: 150%;">Si no sabes como crear una cuenta, dar click en registrarse.</li>
+   <li style="text-align: center;font-family: ITC Conduit;font-size: 150%;">Anota los datos solicitados.</li>
+   <li style="text-align: center;font-family: ITC Conduit;font-size: 150%;">Una vez hecho eso, dar click en inicio.</li>
+   <li style="text-align: center;font-family: ITC Conduit;font-size: 150%;">Elije que tipo de ropa quieres crompar en nuestro blog.</li>
+   <li style="text-align: center;font-family: ITC Conduit;font-size: 150%;">Selecciona la ropa de su agrado.</li>
+   <li style="text-align: center;font-family: ITC Conduit;font-size: 150%;">Finalmente dar click en comprar y listo.</li>
+    
+<!--PARA LA SECCION DE CONTACTOS-->
+<footer style="background-color: rgb(32, 30, 49);font-family: ITC Conduit;color: white;padding-left: 30px;
+height: 400px;">
+
+<h3 style="font-family: ITC Conduit; padding-left: 5px;position: relative;bottom: -20px;">NOTA:</h3>
+<p style="font-family: ITC Conduit; padding-left: 5px;font-size: 100%;">¡Si su ropa no llega en buena forma, se presenta algun error, una duda o no llega su pedido,
+    no se preocupe puede contactarnos a traves de nuestras redes sociales!</p>
+
+    <h2 style="height: 50px;font-family: ITC Conduit;position: relative;padding-left: 80px;">SIGUENOS Y CONTACTANOS POR NUESTRAS REDES SOCIALES:</h2>
+
+    <h3 style="height: 30px;padding-left: 80px; font-family: ITC Conduit;position: relative;bottom: 30px;">
+        <img style="position: relative; height: 60px;width: 80px;bottom: 10px;" src="whatsap1.png" alt="">
+        <p style="position: relative;bottom: 75px;padding-left: 70px;">En Whatsapp al</p>
+        <a style="color: gray;font-size: 120%;position: relative;bottom: 120px;padding-left: 220px;" href="·">+52 72-27-38-40-23</a>
+    </h3>
+
+    <h3 style="height: 30px;padding-left: 80px; font-family: ITC Conduit;position: relative;bottom: 20px;">
+        <img style="position: relative; height: 37px;width: 42px;bottom: 10px;padding-left: 19px;" src="facebook-icones.png" alt="">
+        <p style="position: relative;bottom: 62px;padding-left: 70px;">Facebook como</p>
+        <a style="color: gray;font-size: 120%;position: relative;bottom: 107px;padding-left: 220px;" href="·">Sigueme y te visto oficial</a></h3>
+
+    <h3 style="height: 30px;padding-left: 85px; font-family: ITC Conduit;position: relative;bottom: 20px;">
+        <img style="position: relative; height: 37px;width: 70px;bottom: 10px;" src="instagram1.png" alt="">
+        <p style="position: relative;bottom: 65px;padding-left: 65px;">Instagram como </p>
+        <a style="color: gray;font-size: 120%;position: relative;bottom: 109px;padding-left: 215px;" href="·">Sigueme y te visto oficial</a></h3>
+
+    <h3 style="height: 30px;padding-left: 100px; font-family: ITC Conduit;position: relative;bottom: 20px;">
+        <img style="position: relative; height: 35px;width: 40px;bottom: 10px;" src="correo1.png" alt="">
+        <p style="position: relative;bottom: 65px;padding-left: 50px;">Al Correo como</p>
+        <a style="color: gray;font-size: 120%;position: relative;bottom: 109px;padding-left: 200px;" href="·">siguemeytevisto010@gmail.com</a></h3>
+
+    <h3 style="text-align: center;font-family: ITC Conduit;font-size: 200%;position: relative;top: -20px;">¡Envios totalmente gratis!</h3>
+
+</footer>
+
+</body>
+
+
+
+
+
+<style>
+    /*para el encabezado*/
+a{text-decoration: none;color: rgb(37, 37, 39);font-weight: bold;}
+
+header{display: flex;flex-direction: column;align-items: center;min-height: 70px;background-color: rgb(171, 181, 187);}
+
+.logo img{height: 50px;margin-right: 10px;}
+
+nav a{padding-left: 15px;}
+
+nav a:hover{transition: 0.5s ease-in-out;color: rgb(255, 255, 255);}
+
+.btn:focus{outline: none;}
+
+.srch:focus{outline: none;}
+
+@media (min-width:600px){header{flex-direction: row;padding: 0px 30px;justify-content: space-between;}}
+
+/*para el menu*/
+#menu{position: fixed;top: 1rem;right: 1.1rem;background-color: rgb(109, 106, 117);color: white;width: 3rem;height: 3rem;
+border-radius: 3rem;line-height: 3rem;text-align: center;cursor: pointer;z-index: 27;transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1.1);}
+
+#menu.fa-times{transform: rotate(-180deg);}
+
+#navbar{position: fixed;top: 2.8rem;right: 1.5rem;border: 0.4rem solid rgb(37, 34, 37);padding: 1rem 1.5rem 1rem 1rem;
+border-radius: 0.5rem;z-index: 4;transform: scale(0);opacity: 0;transform-origin: top right;transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1.1);}
+
+#navbar.navbar-toggle{transform: scale(1);opacity: 1; }
+
+#navbar a{display: block;padding: 0.5rem 3rem 0.5rem 1rem;text-decoration: none;color: rgb(72, 65, 112);font-weight: bold;
+font-size: 1.25rem;border-radius: 0.5rem;}
+
+#navbar a:hover{color: rgb(18, 10, 53);background-color: lavender;transition: all 1s ease;}
+
+/*para la seccion de blog*/
+.cab:hover, .dam:hover, .niño:hover, .niña:hover{transition: .3s all ease; transform: scale(0.9);}
+
+</style>
+
+</html>
